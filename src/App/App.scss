@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.leftSidebarContainer,
+.rightSidebarContainer {
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+
+  background-color: rgb(46, 47, 48);
+}
+
+.canvasContainer {
+  position: relative;
+
+  flex: 1 1 0%;
+}

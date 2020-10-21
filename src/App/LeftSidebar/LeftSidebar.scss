@@ -1,0 +1,28 @@
+.leftSidebar {
+  display: flex;
+  flex-direction: column;
+
+  &__itemsContainer {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 15px;
+    padding: 10px;
+
+    cursor: pointer;
+
+    background-color: #444d5c;
+  }
+
+  &__generateMany{
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

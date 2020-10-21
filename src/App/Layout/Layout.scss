@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  padding: 25px;
+
+  color: white;
+  background-color: #444d5c;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.appContainer {
+  display: flex;
+  flex: 1 1 0%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  padding: 25px;
+
+  color: white;
+  background-color: #444d5c;
+
+  font-size: 20px;
+  font-weight: 600;
+}
